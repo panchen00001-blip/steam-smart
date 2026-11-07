@@ -1,0 +1,109 @@
+{
+  "version": 1,
+  "source": "https://www.dogfight360.com/Usbeam/dl2v6_v2.ini",
+  "listen": {
+    "host": "127.0.0.19",
+    "port": 80
+  },
+  "hostsPath": "C:/Windows/System32/drivers/etc/hosts",
+  "groups": [
+    {
+      "id": "steam_xinliu",
+      "name": "新流云1",
+      "target": "dl.steam.clngaa.com.z.ngaagslb.net:80",
+      "hosts": [
+        "dl.steam.clngaa.com",
+        "yif.gdtstream.com"
+      ],
+      "seedIPs": [
+        "240e:930:c300:c00::14",
+        "240e:930:c300:c00::17",
+        "240e:93c:109:100::9d",
+        "240e:93c:109:100::a0"
+      ]
+    },
+    {
+      "id": "steam_xinliu_1",
+      "name": "新流云1-1",
+      "target": "dl.steam.clngaa.com.dl.i2.ngaagslb.net:80",
+      "hosts": [
+        "dl1.steam.clngaa.com"
+      ]
+    },
+    {
+      "id": "steam_xinliu_2",
+      "name": "新流云2",
+      "target": "bjxlv4.y.ngaagslb.net:80",
+      "hosts": [
+        "files.steam.nsclouds.cn"
+      ]
+    },
+    {
+      "id": "steam_xinliu_3",
+      "name": "新流云3",
+      "target": "akk.gdtstream.com.t.ngaagslb.net:80",
+      "hosts": [
+        "akk.gdtstream.com"
+      ]
+    },
+    {
+      "id": "steam_ali",
+      "name": "阿里云",
+      "target": "xz.pphimalayanrt.com.m.alikunlun.com:80",
+      "hosts": [
+        "xz.pphimalayanrt.com"
+      ]
+    },
+    {
+      "id": "steam_ali_2",
+      "name": "阿里云2",
+      "target": "xz.sycontroller.com.ctlcdn.cn:80",
+      "hosts": [
+        "xz.sycontroller.com"
+      ]
+    },
+    {
+      "id": "steam_baishan_core",
+      "name": "白山云1",
+      "target": "zqctgdl.v.trpcdn.net:80",
+      "hosts": [
+        "st.dl.eccdnx.com",
+        "gstore.val.manlaxy.com",
+        "gstore.val.smogfly.com"
+      ]
+    },
+    {
+      "id": "steam_baishan_wanwang",
+      "name": "白山云2",
+      "target": "f86a8fa9-rh.wanwang.space.ctot.baishangeek.cn:80",
+      "hosts": [
+        "f86a8fa9-rh.wanwang.space"
+      ]
+    },
+    {
+      "id": "steam_baishan_tliveapp",
+      "name": "白山云3",
+      "target": "st-dl-eccdnx.tliveapp.com.cdn.dnsv1.com:80",
+      "hosts": [
+        "st-dl-eccdnx.tliveapp.com"
+      ]
+    },
+    {
+      "id": "steam_baishan_sycontroller",
+      "name": "白山云4",
+      "target": "zmxzw.bscgslb.com:80",
+      "hosts": [
+        "static-gslb-cm.sycontroller.com"
+      ]
+    }
+  ],
+  "redirects": {
+    "cdn-ali.content.steamchina.com": "xz.pphimalayanrt.com",
+    "cdn-ws.content.steamchina.com": "dl.steam.clngaa.com",
+    "cdn.mileweb.cs.steampowered.com.8686c.com": "dl.steam.clngaa.com",
+    "st.dl.bscstorage.net": "dl.steam.clngaa.com",
+    "steampipe.steamcontent.tnkjmec.com": "dl.steam.clngaa.com",
+    "cdn-qc.content.steamchina.com": "dl.steam.clngaa.com",
+    "lv.queniujq.cn": "dl.steam.clngaa.com"
+  }
+}

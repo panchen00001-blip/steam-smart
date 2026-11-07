@@ -1,0 +1,35 @@
+# Build outputs and local runtimes
+dist/
+src/build/
+src/dist/
+*.exe
+*.dll
+*.pdb
+*.zip
+/release/package/
+*.etl
+*.pcap
+*.pcapng
+
+# Isolated verification output
+tests/*fixture*/
+tests/*renders*/
+tests/*results*/
+
+# Personal configuration and runtime recovery data
+support/
+runtime/
+**/smart-config.json
+**/smart-config.previous.json
+**/ui-settings.json
+**/hosts-state.json
+**/hosts.before*
+**/ip-history.json
+
+# Editor and operating-system files
+.vs/
+.vscode/
+Thumbs.db
+Desktop.ini
+*.tmp
+*.bak
